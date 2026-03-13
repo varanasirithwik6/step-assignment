@@ -1,10 +1,11 @@
+
+
 import java.util.*;
 
-public class PlagiarismDetector {
+public class PlagiarismDetector1 {
 
-    static int N = 5; // 5-gram
+    static int N = 5;
 
-    // Function to generate n-grams
     public static List<String> generateNGrams(String text) {
         List<String> ngrams = new ArrayList<>();
         String[] words = text.split("\\s+");
