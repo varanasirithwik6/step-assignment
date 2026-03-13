@@ -1,5 +1,5 @@
 import java.util.*;
-public class SocialMedia {
+public class UsernameChecker {
     // HashMap to store username and userId
         HashMap<String, Integer> usernameMap = new HashMap<>();
 
@@ -86,7 +86,7 @@ public class SocialMedia {
 
         public static void main(String[] args) {
 
-            SocialMedia system = new SocialMedia();
+            UsernameChecker system = new UsernameChecker();
 
             system.register("john_doe", 101);
             system.register("alex99", 102);
